@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url(./assets/fonts/OpenSans-SemiBold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.font-size-15{
+  font-size: 15px;
+}
+
+.btn:hover{
+  opacity: 0.8;
 }
