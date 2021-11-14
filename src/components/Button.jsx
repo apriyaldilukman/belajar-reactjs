@@ -19,7 +19,7 @@ const styles = makeStyles(() => ({
 }));
 
 function Button(){
-    const classes = style()
+    const classes = styles()
     return(
         <div>
             <button className={classes.btnStyle} disabled="true">
