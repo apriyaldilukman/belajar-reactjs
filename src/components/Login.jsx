@@ -61,7 +61,7 @@ function Login() {
                         <img className={classes.imgSize} src={istlogo} alt="logo"/>
                     </div>
                     <div className={classes.formContent}>
-                        <Ipunt />
+                        <Input />
                         <Button />
                     </div>
                 </form>

@@ -1,21 +1,21 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { makeStyles } from "@material-ui/core";
-import LoginPage from "./LoginPage.css";
+import Login from "./LoginPage.css";
 import istlogo from "../assets/images/istlogo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default class LoginPage extends Component {
+ export default class LoginPage extends Component {
     state = {
         disabled: true,
     };
 
     handleChange = (e) => {
         if (e.target.value.length >= 2) {
-            this.setSate({
+            this.setState({
                 disabled: false,
             });
         } else {
-            this.setSate({
+            this.setState({
                 disabled: true,
             });
         }

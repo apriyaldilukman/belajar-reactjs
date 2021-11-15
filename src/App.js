@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Beranda from './components/beranda/Beranda';
 import Login from './components/Login';
 import LoginPage from './components/LoginPage';
