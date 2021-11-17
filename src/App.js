@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Beranda />
-      {/* <Login /> */}
-      {/* <LoginPage/> */}
+      <Login />
+      <LoginPage/>
     </div>
   );
 }

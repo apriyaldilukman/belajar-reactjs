@@ -17,7 +17,7 @@ const FooterComp = () => {
             </ul>
         </div>
         <div className="col">
-            <h4>Clinet</h4>
+            <h4>Client</h4>
             <ul className="link-unstyled">
                 <li className="link">BTPN</li>
                 <li className="link">Octo Mobile</li>

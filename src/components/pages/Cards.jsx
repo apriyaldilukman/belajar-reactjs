@@ -5,10 +5,16 @@ import Home from "./Home";
 export default class Cards extends Component {
     render() {
         return (
+            // <Container>
+            //     <Row>
+            //         <Col><Home/></Col>
+            //     </Row>
+            // </Container>
+
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <Home/>
+                        <Home />
                     </div>
                 </div>
             </div>

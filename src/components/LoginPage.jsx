@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { makeStyles } from "@material-ui/core";
-import Login from "./LoginPage.css";
+import  "./LoginPage.css";
 import istlogo from "../assets/images/istlogo.png";
 import { Link } from "react-router-dom";
 

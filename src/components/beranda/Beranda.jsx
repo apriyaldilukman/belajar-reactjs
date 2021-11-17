@@ -2,7 +2,7 @@ import React, { Component, useState} from "react";
 import PropTypes from "prop-types";
 import NavbarComp from "./NavbarComp";
 import FooterComp from "./FooterComp";
-import { Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from "../pages/Home";
 import Chart from "../pages/Chart";
 import Data from "../pages/Data";
@@ -16,21 +16,23 @@ export default class Beranda extends Component {
         prop: PropTypes,
     };
 
+
     render () {
         return (
             <div className="page-container">
 
                 <Router>
                     <NavbarComp/>
-                    <Routes>
+                    <Switch>
                         <Route path="/" exact component={Cards} />
                         <Route path="/data" component={Data} />
                         <Route path="/laporan" component={Laporan} />
                         <Route path="/chart" component={Chart} />
-                    </Routes>
+                    </Switch>
                 </Router>
 
                 <FooterComp/>
+
             </div>
 
         );
